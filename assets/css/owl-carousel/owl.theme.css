@@ -9,7 +9,7 @@
 	color: #FFF;
 	display: inline-block;
 	zoom: 1;
-	*display: inline;/*IE7 life-saver */
+	*display: inline;
 	margin: 5px;
 	padding: 3px 10px;
 	font-size: 12px;
@@ -21,7 +21,7 @@
 	opacity: 0.5;
 }
 .owl-theme .owl-controls.clickable .owl-buttons div:hover{
-	filter: Alpha(Opacity=100);/*IE7 fix*/
+	filter: Alpha(Opacity=100);
 	opacity: 1;
 	text-decoration: none;
 }

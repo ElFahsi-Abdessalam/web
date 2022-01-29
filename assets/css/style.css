@@ -399,10 +399,6 @@ p {
   background-size: cover;
 }
 
-/***********************************************************************************************/
-/* =Hero section-2 */
-/***********************************************************************************************/
-
 .home-hero-2:before {
   position: absolute;
   content: '';
@@ -418,10 +414,6 @@ p {
   background: url('../images/hero-bg/home-2.jpg');
   background-size: cover;
 }
-
-/***********************************************************************************************/
-/* =Hero section-3 */
-/***********************************************************************************************/
 
 .home-hero-3:before {
   position: absolute;
@@ -439,9 +431,6 @@ p {
   background-size: cover;
 }
 
-/***********************************************************************************************/
-/* =Hero section-4 */
-/***********************************************************************************************/
 
 .home-hero-4:before {
   position: absolute;
@@ -458,10 +447,6 @@ p {
   background: url('../images/hero-bg/home-4.jpg');
   background-size: cover;
 }
-
-/***********************************************************************************************/
-/* =Home hero */
-/***********************************************************************************************/
 
 .hero-content {
   position: relative;
@@ -515,9 +500,6 @@ ul.caption-slides li {
   text-align: center;
 }
 
-/***********************************************************************************************/
-/* =About Section */
-/***********************************************************************************************/
 
 .about-hero {
   background: url('../images/hero-bg/about.jpg');
@@ -634,9 +616,6 @@ ul.caption-slides li {
   padding-bottom: 8px;
 }
 
-/***********************************************************************************************/
-/* =Choose Section */
-/***********************************************************************************************/
 
 #choose-section .title-section, #soon-services-section .title-section {
   padding-bottom: 80px;
@@ -680,9 +659,6 @@ ul.choose-list li, ul.soon-list li {
   margin-bottom: 15px;
 }
 
-/***********************************************************************************************/
-/* =Projects Section */
-/***********************************************************************************************/
 
 #projects-section {
   padding: 100px 0 80px 0!important;
@@ -712,7 +688,7 @@ ul.choose-list li, ul.soon-list li {
   vertical-align: middle;
 }
 
-/*Overlay projects*/
+
 
 .overlay {
   position: absolute;
@@ -815,9 +791,6 @@ a:hover .overlay {
   padding-bottom: 30px;
 }
 
-/***********************************************************************************************/
-/* =clients section*/
-/***********************************************************************************************/
 
 .clients-bg {
   background: url('../images/clients/clients-bg.jpg') center top;
@@ -857,9 +830,6 @@ a:hover .overlay {
   opacity: .8;
 }
 
-/***********************************************************************************************/
-/* =Statistics Section */
-/***********************************************************************************************/
 
 #statistic-section {
   background: url('../images/temp/stats-bg.jpg') center top;
@@ -900,10 +870,6 @@ span.percentfactor {
   text-transform: uppercase;
 }
 
-/***********************************************************************************************/
-/* =Team Section */
-/***********************************************************************************************/
-
 #team-section .title-section {
   margin-bottom: 80px;
 }
@@ -916,9 +882,12 @@ span.percentfactor {
   position: relative;
   cursor: pointer;
 }
-
+#abdel{
+  height: auto;
+}
 .member-team img {
   width: 100%;
+
 }
 
 .member-team .magnifier {
@@ -1034,10 +1003,6 @@ h6.progress-value {
   float: right;
 }
 
-/***********************************************************************************************/
-/* =Call-to-action section */
-/***********************************************************************************************/
-
 #call-to-action-section {
   padding: 60px 0;
   background: #eb7a5c;
@@ -1065,10 +1030,6 @@ h6.progress-value {
   text-align: center;
   margin-top: 40px;
 }
-
-/***********************************************************************************************/
-/* =Services*/
-/***********************************************************************************************/
 
 .services-hero {
   background: url('../images/hero-bg/services.jpg');
@@ -1110,7 +1071,7 @@ h6.progress-value {
 }
 
 #banner-services {
-  background: url('../images/temp/stats-bg.jpg') center top;
+  background: url('../images/hero-bg/fond2.jpg') center top;
   position: relative;
   border-bottom: 1px solid transparent;
 }
@@ -1150,10 +1111,13 @@ h6.progress-value {
 }
 
 .banner-image {
-    margin: -40px 0 0 0;
+    margin: 100px 0 0 0;
+
     text-align: right;
 }
-
+#git{
+  width: 45%;
+}
 .banner-content a {
   letter-spacing: 1.6px;
   margin-top: 30px;
@@ -1260,11 +1224,6 @@ p.months {
 ul.price-table li .btn {
   margin: 30px;
 }
-
-/***********************************************************************************************/
-/* =Portfolio Page */
-/***********************************************************************************************/
-
 .portfolio-hero {
   background: url('../images/hero-bg/02.jpg');
   background-size: cover;
@@ -1333,10 +1292,6 @@ ul.filter-list li:last-child a:after {
   margin-bottom: 10px;
 }
 
-/***********************************************************************************************/
-/* =Tweet section*/
-/***********************************************************************************************/
-
 #tweet-section {
   background: url('../images/temp/tweet-bg.jpg') center top;
   position: relative;
@@ -1385,10 +1340,6 @@ ul.tweet-slider small {
   color: #e6e6e6;
   font-size: 99%;
 }
-
-/***********************************************************************************************/
-/* =Blog-section section */
-/***********************************************************************************************/
 
 #blog-section .title-section {
   padding-bottom: 80px;
@@ -1450,10 +1401,6 @@ h4.post-title {
 .blog-more {
   margin-top: 20px;
 }
-
-/***********************************************************************************************/
-/* =Contact section*/
-/***********************************************************************************************/
 
 #contact-section .divider {
   display: inline-block;
@@ -1769,70 +1716,8 @@ ul.features-list li {
   text-align: center;
 }
 
-/*--------------------
-  Video section
-----------------------*/
 
-#video-section {
-  background: url('../images/temp/tweet-bg.jpg') center top;
-  position: relative;
-  padding: 100px 0;
-}
 
-#video-section:before {
-  position: absolute;
-  content: '';
-  top: 0;
-  left: 0;
-  background: #fc6e51;
-  opacity: .9;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-}
-
-#video-section .container {
-  position: relative;
-  z-index: 3;
-}
-
-#video-section .video-section-content a {
-  display: block;
-  width: 80px;
-  height: 80px;
-  margin: 0 auto 20px;
-  border: 3px solid rgba(255,255,255, .93);
-  text-align: center;
-  line-height: 78px;
-  font-size: 28px;
-  color: rgba(255,255,255, .93);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
-
-#video-section .video-section-content a .fa-play {
-  position: relative;
-  left: 4px;
-}
-
-.video-head {
-  font-size: 38px;
-  font-weight: 500;
-  line-height: 1.3;
-  text-align: center;
-  color: #fff;
-  padding-bottom: 7px;
-}
-
-.video-sub-heading {
-  font-size: 20px;
-  font-weight: 300;
-  text-align: center;
-  line-height: 1.3;
-  opacity: .9;
-  color: #fff;
-}
 
 /*--------------------
   Offer section
@@ -1900,17 +1785,9 @@ ul.features-list li {
   width: 100%;
 }
 
-.subscription-success, .subscription-error {
-  text-align: center;
-  font-weight: 400;
-  margin: 20px 0 25px 0;
-  font-size: 13px;
-}
 
-.subscription-success span, .subscription-error span {
-  margin-bottom: 15px;
-  font-size: 24px;
-}
+
+
 
 /*--------------------
   Testimonials section
