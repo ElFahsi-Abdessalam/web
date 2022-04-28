@@ -133,19 +133,28 @@
                 <hr>
                 <p>Les services proposés sont axés pour satisfaire le client</p>
               </div>
+
               </div>
+
             </div>
-          </div>
           <div id="Service">
             <p><a href="http://192.168.1.13:9000/" target="_blank"><img class="service" src="assets/images/Service/portainer.webp"></a>   Portainer</p>
+            <br>
             <p><a href="" target="_blank"><img class="service" src="assets/images/Service/docker.png"></a>   Docker</p>
-            <p><a href="https://192.168.1.13/" target="_blank"><img class="service" src="assets/images/Service/openmediavault-circle.webp"></a>   OVM</p>
+            <br>
+            <p><a href="http://192.168.1.13:8000" target="_blank"><img class="service" src="assets/images/Service/openmediavault-circle.webp"></a>   OVM</p>
+            <br>
             <p><a href="http://192.168.1.13:9091/transmission/web/" target="_blank"><img class="service" src="assets/images/Service/Transmission.png"></a>   Transmission</p>
-            <p><a href="http://192.168.1.13:8080/apps/dashboard/" target="_blank"><img class="service" src="assets/images/Service/nextcloud.png"></a>   NextCloud</p>
+            <br>
+            <p><a href="http://192.168.1.13:800/" target="_blank"><img class="service" src="assets/images/Service/Pi-hole-vortex2.jpg"></a>   Raspbian</p>
+            <br>
+
           </div>
+          </div>
+
         </div>
 
-      </div>
+
 
     </section>
 
@@ -320,31 +329,9 @@
       </div>
     </section>
 
-    <section>
-      <div id="subscribe-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
-              <div class="newsletter-title text-center">
-                <h4>Restez informé avec notre newsletter</h4>
-              </div>
-              <form class="form-inline subscription-form mailchimp" id="subscribeform">
-                <div class="form-group newsletter-field">
-                  <input type="email" name="email" class="form-control" id="subscriber-email" placeholder="votremail@exemple.com">
-                </div>
-                <button type="submit" id="subscribe-button" class="btn btn-sm btn-dark">S'inscrire</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="sep-section"></div>
-    </section>
 
-    <!-- Testimonial
-    ================================================== -->
+
+
     <section>
       <div id="testimonials-section">
         <div class="container">
@@ -409,15 +396,15 @@
 
                   <fieldset>
                     <div class="form-group">
-                      <input class="form-control br-b" type="text" name="name" id="name" placeholder="Nom">
+                      <input class="form-control br-b" type="text" name="name" id="name" placeholder="Nom" required>
                     </div>
 
                     <div class="form-group">
-                      <input class="form-control br-b" type="email" name="email" id="email" placeholder="Email">
+                      <input class="form-control br-b" type="email" name="email" id="email" placeholder="Email" required>
                     </div>
 
                     <div class="form-group">
-                      <textarea class="form-control br-b" name="message" id="message" placeholder="Message..."></textarea>
+                      <textarea class="form-control br-b" name="message" id="message" placeholder="Message..." required></textarea>
                     </div>
                   </fieldset>
 
@@ -440,6 +427,9 @@
     </section>
 
 
+
+
+
     <section>
       <div class="contact-info">
         <div class="container">
@@ -457,6 +447,30 @@
         </div>
       </div>
     </section>
+
+    <section>
+      <div id="subscribe-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+              <div class="newsletter-title text-center">
+                <h4>Restez informé avec notre newsletter</h4>
+              </div>
+              <form class="form-inline subscription-form mailchimp" id="subscribeform">
+                <div class="form-group newsletter-field">
+                  <input type="email" name="email" class="form-control" id="subscriber-email" placeholder="votremail@exemple.com">
+                </div>
+                <button type="submit" id="subscribe-button" class="btn btn-sm btn-dark">S'inscrire</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="sep-section"></div>
+    </section>
+
     <footer>
       <div id="footer-section" class="text-center">
         <div class="container">
@@ -478,7 +492,8 @@
 
 
 
-  <div class="back-to-top">
+
+    <div class="back-to-top">
     <i class="fa fa-angle-up fa-3x"></i>
   </div>
 
